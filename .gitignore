@@ -1,0 +1,52 @@
+# --- Python Standartları ---
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+env/
+.venv/
+
+# --- Veri Setleri (Dataset) ---
+# Ham ve işlenmiş verileri Git'e eklemeyin
+data/
+datasets/
+*.csv
+*.jsonl
+*.parquet
+*.sql
+*.sqlite
+
+# --- Model Ağırlıkları ve Çıktılar ---
+# LSTM (.h5, .keras) ve LLM (.bin, .pt, .safetensors) dosyaları
+models/
+weights/
+checkpoints/
+*.h5
+*.keras
+*.pt
+*.pth
+*.bin
+*.model
+*.safetensors
+*.gguf
+*.onnx
+
+# --- Loglar ve Görselleştirme ---
+logs/
+runs/
+.tensorboard/
+*.log
+wandb/
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# --- OS Özel Dosyalar ---
+.DS_Store
+Thumbs.db
+
+# --- Büyük Dosya İstisnası (Opsiyonel) ---
+# Eğer çok küçük bir yapılandırma dosyanız varsa istisna ekleyebilirsiniz
+# !models/config.json
