@@ -24,8 +24,8 @@ Bu proje, LSTM (Long Short-Term Memory) ağları ve LLM (Large Language Model) t
 2. Sanal ortamı oluşturun ve aktif edin:
     python -m venv venv
     source venv/bin/activate  # macOS/Linux
-    # veya venv\Scripts\activate # Windows
-    # NOTE ben python3.12 -m venv venv şeklinde oluşturdum. 
+    veya venv\Scripts\activate # Windows
+     **NOTE** ben python3.12 -m venv venv şeklinde oluşturdum. 
 
 3. Gerekli paketleri yükleyin:
     pip install -r requirements.txt
