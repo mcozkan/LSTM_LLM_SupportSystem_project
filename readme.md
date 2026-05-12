@@ -1,6 +1,8 @@
 # LSTM & LLM Support System Project
 
-Bu proje, LSTM (Long Short-Term Memory) ağları ve LLM (Large Language Model) teknolojilerini bir araya getirerek geliştirilen bir destek sistemidir. Proje kapsamında hem zaman serisi/metin dizisi tahminlemeleri hem de gelişmiş dil işleme yetenekleri bir arada sunulmaktadır.
+Bu proje, LSTM (Long Short-Term Memory) ağları ve LLM (Large Language Model) teknolojilerini bir araya getirerek geliştirilen **sunumda kullanım amacı olan bir destek sistemi simulasyonudur.** 
+
+Proje kapsamında hem zaman serisi/metin dizisi tahminlemeleri hem de gelişmiş dil işleme yetenekleri bir arada sunulmaktadır.
 
 ## 🚀 Proje İçeriği
 
